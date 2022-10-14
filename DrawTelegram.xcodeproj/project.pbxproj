@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		2C22BF6628F5522500811E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BF6528F5522500811E5E /* AppDelegate.swift */; };
 		2C22BF6828F5522500811E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BF6728F5522500811E5E /* SceneDelegate.swift */; };
-		2C22BF6A28F5522500811E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BF6928F5522500811E5E /* ViewController.swift */; };
-		2C22BF6D28F5522500811E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C22BF6B28F5522500811E5E /* Main.storyboard */; };
+		2C22BF6A28F5522500811E5E /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22BF6928F5522500811E5E /* InitialViewController.swift */; };
 		2C22BF6F28F5522600811E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C22BF6E28F5522600811E5E /* Assets.xcassets */; };
 		2C22BF7228F5522600811E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C22BF7028F5522600811E5E /* LaunchScreen.storyboard */; };
+		2C280EAC28F74EF900CE7CC7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2C280EAB28F74EF900CE7CC7 /* Lottie */; };
+		2C5ECC3D28F5F7B200A8FAE5 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5ECC3C28F5F7B200A8FAE5 /* EditorViewController.swift */; };
+		318213EA71BDB4E9DCA620C2 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182186BFA587E31FF70C215 /* PhotoCollectionViewController.swift */; };
+		3182148E19C2D990C0FB2B44 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31821F737131B13733F37801 /* UIView+Constraints.swift */; };
+		31821536970D319C54CD7735 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31821139BA585B89AEC9D384 /* PhotoCollectionCell.swift */; };
+		31821666409EFC1F25D75331 /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = 318218BCD602F7BBFBEED599 /* duck.json */; };
+		31821CE626E2F26863D94843 /* EditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318213CBA73B6C75BF3AFF68 /* EditorModel.swift */; };
+		31821E12411549BA4BD774D7 /* PhotoCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318212503E851D36DBE1F90D /* PhotoCollectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C22BF6228F5522500811E5E /* DrawTelegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawTelegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C22BF6528F5522500811E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C22BF6728F5522500811E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C22BF6928F5522500811E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C22BF6C28F5522500811E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C22BF6928F5522500811E5E /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		2C22BF6E28F5522600811E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C22BF7128F5522600811E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C22BF7328F5522600811E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5ECC3C28F5F7B200A8FAE5 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		31821139BA585B89AEC9D384 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		318212503E851D36DBE1F90D /* PhotoCollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionManager.swift; sourceTree = "<group>"; };
+		318213CBA73B6C75BF3AFF68 /* EditorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorModel.swift; sourceTree = "<group>"; };
+		3182186BFA587E31FF70C215 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		318218BCD602F7BBFBEED599 /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = duck.json; sourceTree = "<group>"; };
+		31821F737131B13733F37801 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C280EAC28F74EF900CE7CC7 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +72,27 @@
 			children = (
 				2C22BF6528F5522500811E5E /* AppDelegate.swift */,
 				2C22BF6728F5522500811E5E /* SceneDelegate.swift */,
-				2C22BF6928F5522500811E5E /* ViewController.swift */,
-				2C22BF6B28F5522500811E5E /* Main.storyboard */,
+				2C22BF6928F5522500811E5E /* InitialViewController.swift */,
+				2C5ECC3C28F5F7B200A8FAE5 /* EditorViewController.swift */,
 				2C22BF6E28F5522600811E5E /* Assets.xcassets */,
 				2C22BF7028F5522600811E5E /* LaunchScreen.storyboard */,
 				2C22BF7328F5522600811E5E /* Info.plist */,
+				318213CBA73B6C75BF3AFF68 /* EditorModel.swift */,
+				318218BCD602F7BBFBEED599 /* duck.json */,
+				31821F737131B13733F37801 /* UIView+Constraints.swift */,
+				31821031B79A6B0CFAA34F58 /* PhotoCollection */,
 			);
 			path = DrawTelegram;
+			sourceTree = "<group>";
+		};
+		31821031B79A6B0CFAA34F58 /* PhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				318212503E851D36DBE1F90D /* PhotoCollectionManager.swift */,
+				3182186BFA587E31FF70C215 /* PhotoCollectionViewController.swift */,
+				31821139BA585B89AEC9D384 /* PhotoCollectionCell.swift */,
+			);
+			path = PhotoCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = DrawTelegram;
+			packageProductDependencies = (
+				2C280EAB28F74EF900CE7CC7 /* Lottie */,
+			);
 			productName = DrawTelegram;
 			productReference = 2C22BF6228F5522500811E5E /* DrawTelegram.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 2C22BF5928F5522500811E5E;
+			packageReferences = (
+				2C280EAA28F74EF900CE7CC7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2C22BF6328F5522500811E5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +161,7 @@
 			files = (
 				2C22BF7228F5522600811E5E /* LaunchScreen.storyboard in Resources */,
 				2C22BF6F28F5522600811E5E /* Assets.xcassets in Resources */,
-				2C22BF6D28F5522500811E5E /* Main.storyboard in Resources */,
+				31821666409EFC1F25D75331 /* duck.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +172,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C22BF6A28F5522500811E5E /* ViewController.swift in Sources */,
+				2C22BF6A28F5522500811E5E /* InitialViewController.swift in Sources */,
 				2C22BF6628F5522500811E5E /* AppDelegate.swift in Sources */,
 				2C22BF6828F5522500811E5E /* SceneDelegate.swift in Sources */,
+				2C5ECC3D28F5F7B200A8FAE5 /* EditorViewController.swift in Sources */,
+				31821CE626E2F26863D94843 /* EditorModel.swift in Sources */,
+				3182148E19C2D990C0FB2B44 /* UIView+Constraints.swift in Sources */,
+				31821E12411549BA4BD774D7 /* PhotoCollectionManager.swift in Sources */,
+				318213EA71BDB4E9DCA620C2 /* PhotoCollectionViewController.swift in Sources */,
+				31821536970D319C54CD7735 /* PhotoCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2C22BF6B28F5522500811E5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C22BF6C28F5522500811E5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C22BF7028F5522600811E5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,13 +319,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6HRKGD57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawTelegram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiwanv.DrawTelegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,13 +350,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H6HRKGD57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DrawTelegram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yiwanv.DrawTelegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C280EAA28F74EF900CE7CC7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C280EAB28F74EF900CE7CC7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C280EAA28F74EF900CE7CC7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C22BF5A28F5522500811E5E /* Project object */;
 }
